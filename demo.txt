@@ -1,0 +1,5 @@
+file name = demo.txt
+file = open(r'C:\test\demo.txt', 'r')
+file.write("now has more content")
+print(file.read())
+file.close()
